@@ -19,6 +19,15 @@ public class Privat extends Flugzeug{
     public String prepareStart() {
         // || steht für ODER Bedingung --> sowohl klein als auch groß schreiben 
         // && steht für UND!
+        //Mit Klammern kann man mehrere Bedingungen Verknüpfen (siehe Foto 26.11.2021)
+
+        //Operaten bei Bedingungen:
+        // == Vergleich
+        // != Nicht
+        // > Größer
+        // < Kleiner
+        // >= Größer gleich
+        // <= kleiner gleich
         if(getTyp() == "Jet" || getTyp() =="jet"){
             return "Privatflugzeug darf nicht auf Starbahn 32R starten";
         }
