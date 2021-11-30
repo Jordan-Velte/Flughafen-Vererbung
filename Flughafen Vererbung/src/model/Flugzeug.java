@@ -1,5 +1,6 @@
 package model;
 
+//Abstrakte Oberklasse: Kein Objekt wird aus Oberklasse erstellt --> nur für Vererbungsstruktur in Hinblick auf die Subklassen nötig
 public abstract class Flugzeug {
     int _flugzeugnummer;
     String _airline;
@@ -21,7 +22,7 @@ public abstract class Flugzeug {
     public int getFlugzeugnummer() {
         return _flugzeugnummer;
     }
-    //Methodensignatur ohne Rumpf!
+    //Methodensignatur ohne Rumpf! --> Muss in jeder Subklasse implementiert werden!
     public abstract String prepareStart();
 
 }
