@@ -22,7 +22,7 @@ public abstract class Flugzeug {
     public int getFlugzeugnummer() {
         return _flugzeugnummer;
     }
-    //Methodensignatur ohne Rumpf! --> Muss in jeder Subklasse implementiert werden!
+    //Abstrakte Methodensignatur ohne Rumpf! --> Muss in jeder Subklasse implementiert werden!
     public abstract String prepareStart();
 
 }
